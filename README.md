@@ -30,7 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://github.com/chelc315/FEM_productPreview.git](https://github.com/chelc315/FEM_productPreview.git)
+- Solution URL: [https://github.com/chelc315/FEM_productPreview.git](https://github.com/chelc315/FEM_productPreview.git)
+- Live Preview URL: [https://chelc315.github.io/FEM_productPreview/](https://chelc315.github.io/FEM_productPreview/)
 
 ## My process
 
