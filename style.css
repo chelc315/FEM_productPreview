@@ -1,0 +1,172 @@
+/* 
+
+FONTS 
+-----
+
+font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+
+COLORS
+------
+
+dark green: #044130
+medium green: #1C6E57
+cream: #F7EDE7
+gray: #6B6B74
+
+*/
+
+
+/* UNIVERSAL STYLES */
+/* ---------------- */
+
+body {
+    min-height: 100vh;
+    background-color: #F7EDE7;
+}
+
+.sansSerif {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.serif {
+    font-family: 'Fraunces', serif;
+}
+
+.gray {
+    color: #6B6B74;
+}
+
+.mediumGreen {
+    color: #1C6E57;
+}
+
+/* BODY STYLES */
+/* ----------- */
+
+main {
+    background-color: #FFF;
+    width: 345px;
+    height: 615px;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+
+    border-radius: 10px;
+}
+
+#bannerPhoto {
+    width: 345px;
+    height: 240px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: url(./images/image-product-mobile.jpg);
+    background-size: 345px 240px;
+    background-repeat: no-repeat;
+}
+
+section {
+    padding: 25px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+#bodyCopy {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 15px;
+}
+
+#salePrice {
+    font-size: 34px;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0;
+}
+
+#originalPrice {
+    font-size: 15px;
+    text-decoration: line-through;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+button {
+    background-color: #1C6E57;
+    width: 295px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #044130;
+}
+
+#cartIcon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#buttonLabel {
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 14px;
+}
+
+/* DESKTOP STYLES */
+/* -------------- */
+
+@media only screen and (min-width: 600px) {
+    main {
+        width: 600px;
+        height: 450px;
+        display: inline-block;
+    }
+
+    #bannerPhoto {
+        float: left;
+        width: 300px;
+        height: 450px;
+        background: url(./images/image-product-desktop.jpg);
+        background-size: 300px 450px;
+        margin-right: 30px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+
+    h1 {
+        width: 515px;;
+    }
+
+    section {
+        padding-top: 30px;
+    }
+
+    button {
+        display: inline-block;
+        width: 235px;
+    }
+  }
